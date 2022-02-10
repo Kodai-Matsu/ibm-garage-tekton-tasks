@@ -2,7 +2,7 @@ name: Mirror images
 
 on:
   schedule:
-    - cron: '0 1 * * *'
+    - cron:
   push:
     branches:
     - main
